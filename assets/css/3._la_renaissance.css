@@ -1,0 +1,47 @@
+body {
+    background-image: url("../images/ui/soup.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 0fr 1fr;
+    column-gap: 100px;
+    margin-left: 200px;
+}
+
+@media (max-width: 768px) {
+    .topbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .topbar div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .topbar div a {
+        margin: 5px 0;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+        margin: 10px;
+    }
+
+    p.n {
+        font-size: 0.9em;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}

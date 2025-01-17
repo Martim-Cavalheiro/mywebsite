@@ -1,0 +1,208 @@
+@font-face {
+    font-family: "fnaf";
+    src: url("../fonts/Five_Nights_At_Freddys.otf.ttf");
+}
+
+@font-face {
+    font-family: "undertale";
+    src: url("../fonts/Undertale.ttf");
+}
+
+@font-face {
+    font-family: "cuphead";
+    src: url("../fonts/Cuphead.ttf");
+}
+
+@font-face {
+    font-family: "celeste";
+    src: url("../fonts/Celeste.otf");
+}
+
+@font-face {
+    font-family: "fnf";
+    src: url("../fonts/Friday_Night_Funkin.ttf");
+}
+
+@font-face {
+    font-family: "ut";
+    src: url("../fonts/Until_Then.otf");
+}
+
+body {
+    background-color: rgb(11, 2, 35);
+    color: azure;
+}
+
+.container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+}
+
+.undertale {
+    background-image: url('../images/ui/undertale_bg.png');
+    background-repeat: repeat-x;
+    background-size: 1300px;
+    padding: 50px;
+}
+
+.fnaf {
+    background-image: url(https://i.makeagif.com/media/11-15-2015/iHywJQ.gif);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+.cuphead {
+    background-color: rgba(255, 207, 16, 255);
+    padding: 50px;
+}
+
+.celeste {
+    background-image: url(https://i.pinimg.com/originals/6c/f1/b0/6cf1b0824e23aa6b830b6962337615be.jpg);
+    background-size: cover;
+    padding: 50px;
+}
+
+.fnf {
+    background-image: url('../images/ui/stageback.png');
+    background-repeat: repeat;
+    background-size: 1200px;
+    padding: 50px;
+}
+
+.ut {
+    background-image: url('../images/ui/ut_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+.container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+}
+
+.jump {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 0.2fr;
+    column-gap: 10px;
+}
+
+#intro {
+    font-family: "Fugaz One", serif;
+    font-weight: 1;
+    font-style: normal;
+    font-size: 150%;
+    background-color: hsla(0, 0%, 23%, 0.500);
+    display: inline-flex;
+    line-height: 2;
+    margin-left: 30%;
+  }
+
+pre.fnafs {
+    font-family: "fnaf", serif;
+    font-weight: 1;
+    font-style: normal;
+    font-size: 150%;
+    background-color: hsla(0, 0%, 23%, 0.500);
+    display: inline-flex;
+    line-height: 2;
+    margin-left: 15px;
+    margin-right: 50px;
+}
+
+pre.undertales {
+    font-family: "undertale", serif;
+    font-weight: 1;
+    font-style: normal;
+    font-size: 200%;
+    border-width: 8px;
+    border-style: solid;
+    border-color: white;
+    display: inline-flex;
+    line-height: 1;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+pre.cupheads {
+    font-family: "cuphead";
+    font-weight: 1;
+    font-size: 200%;
+    font-weight: bold;
+    }
+
+pre.celestes {
+font-family: "celeste";
+font-weight: 1;
+font-size: 200%;
+background-color: hsla(0, 0%, 71%, 0.5);
+color: rgb(200, 0, 127);
+display: inline-flex;
+line-height: 1.5;
+margin-left: 15px;
+margin-right: 50px;
+}
+
+pre.fnfs {
+    font-family: "fnf";
+    font-weight: 1;
+    font-size: 200%;
+}
+
+pre.uts {
+    font-family: "ut";
+    font-weight: 1;
+    font-style: normal;
+    font-size: 150%;
+    background-color: hsla(0, 0%, 23%, 0.500);
+    display: inline-flex;
+    line-height: 2;
+    margin-left: 15px;
+    margin-right: 50px;
+}
+
+img.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+img.loopfnaf {
+    margin-left: 50px;
+}
+
+img.sans {
+    margin-left: 300px;
+}
+
+
+#jumpscare {
+    position: absolute;
+    top:550px;
+    left: 10px;
+    right: 100px;
+    width: 99%;
+    height: 99%;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#hur {
+    position: absolute;
+    top: 250px;
+    left: 5px;
+    right: 100px;
+    width: 99%;
+    height: 99%;
+    cursor: pointer;
+    visibility: hidden;
+}
